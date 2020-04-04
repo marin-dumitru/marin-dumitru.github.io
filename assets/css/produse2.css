@@ -64,14 +64,13 @@ button{
   text-transform: uppercase;
   display:block;
   left:0px;
-  color: var(--accent);
+ 
 }
 
 
   button .b2{
   text-transform: uppercase;
   letter-spacing: 0.2vw;
-  color: var(--accent);
   display:block;
   font-weight: 300;
 }
