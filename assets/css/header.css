@@ -130,7 +130,7 @@ h2:hover{
   /* Header CSS */
   .main-header nav, .main-header ul {
     align-items: center;
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     font-size: 1em;
   }
