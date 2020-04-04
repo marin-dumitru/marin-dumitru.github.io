@@ -2,7 +2,7 @@ document.write('\
 \
     <header class="main-header">\
     <nav>\
-      <img src="assets/img/logo.jpg" alt="404 logo not found">\
+      <img src="assets/img/logo.jpg" alt="logo">\
       <h1 class="fade-in" data-wow-delay=".5s"><a href="index.html"><span class="title-color">Vfit</span> Gym</a></h1>\
       <ul>\
         <li class="fade-in wow" id="delay-1" data-wow-delay=".5s"><a href="index.html">Acasa</a></li>\
