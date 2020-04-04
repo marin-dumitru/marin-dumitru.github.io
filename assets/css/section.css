@@ -108,7 +108,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .gyms-item-1, .gyms-item-2, .gyms-item-3, {
+  .gyms-item-1, .gyms-item-2, .gyms-item-3 {
     flex-grow: 1;
   }
    .trainer-profile {
