@@ -126,29 +126,4 @@ h2:hover{
     margin-right: 30px;
   }
  }
- @media only screen and (min-width: 500px) and (orientation: landscape) {
-  /* Header CSS */
-  .main-header nav, .main-header ul {
-    align-items: center;
-    display: inline-block;
-    flex-wrap: wrap;
-    font-size: 1em;
-  }
-  .main-header nav {
-    justify-content: space-around;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
-  }
-  .main-header ul {
-    margin-right: 10%;
-  }
-  .main-header h1 {
-    align-self: center;
-    margin: 0 auto 0 10%;
-  }
-  .main-header li {
-    margin-right: 30px;
-  }
  
