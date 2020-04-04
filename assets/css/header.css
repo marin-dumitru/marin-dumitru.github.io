@@ -57,13 +57,13 @@ h2
     border: 1px solid white;
     color: black;
     transition: ease-in-out 0.2s;
-    top: 660px;
+    top: 34vw;
     left:15.5vw;
     position: absolute;
     padding-left:40px;
     padding-right:40px;
     padding-top:15px;
-    font-size: 1vw;
+    font-size: 1.2em;
     padding-bottom: 15px;
     border-radius: 50px;
     z-index: 1;
