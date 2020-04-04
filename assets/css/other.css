@@ -1,0 +1,32 @@
+/* Other CSS */
+
+.title-color, .fas {
+  color: #44C184;
+}
+
+.fas {
+  margin-top: 40px;
+}
+
+.back-to-top {
+  background-color: #232A3B;
+  border-radius: 50%;
+  bottom: 30px;
+  height: 40px;
+  padding: 6px 17px;
+  position: fixed;
+  right: 30px;
+  width: 40px;
+}
+
+.back-to-top i {
+  margin-left: -3px;
+  margin-top: -0px;
+  transition: background-color .5s, border .5s;
+}
+
+.back-to-top:hover {
+  background-color: #fff;
+  border: 1px solid #232A3B;
+  transition: background-color .5s, border .5s;
+}

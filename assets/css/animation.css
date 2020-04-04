@@ -1,0 +1,29 @@
+/* Animation CSS */
+
+.fade-in {
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+#delay-1 {
+  animation-delay: 200ms !important;
+}
+
+#delay-2 {
+  animation-delay: 400ms !important;
+}
+
+#delay-3 {
+  animation-delay: 600ms !important;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

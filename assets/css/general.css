@@ -1,0 +1,40 @@
+/* Universal Reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  background-color: #44C184;
+}
+
+/* Link CSS */
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* Main CSS */
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 1.5;
+  position: relative;
+}
+
+h1 {
+  font-family: audiowide;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+

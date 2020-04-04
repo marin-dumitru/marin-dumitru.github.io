@@ -1,0 +1,131 @@
+img {
+   border-radius: 50%;
+   height: 5%;
+   width: 5%;
+}
+nav {
+  background-color: #232A3B;
+  color: #fff;
+  font-size: 1.4em;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 99;
+  position:fixed;
+
+}
+nav ul{
+    text-transform: uppercase;
+    display:flex;
+    vertical-align: middle;
+}
+nav li{
+
+    display:inline-block;
+    margin-right: 2vw;
+    padding:0px;
+    top:0px;
+    transition: ease-in-out 0.2s;
+}
+
+nav li a{
+
+    display:block;
+    padding:2vh;
+    color:white;
+}
+
+nav li:hover{
+  background-color: #1c2230;
+  transform: scale(1.1);
+}
+
+
+header p {
+  background: #232A3B url("../img/header-bg.jpg") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  height:800px;
+  font-family: audiowide;
+  font-size: 2.2em;
+  padding: 600px 300px;
+ 
+}
+
+h2
+{
+	  background-color: white;
+    border: 1px solid white;
+    color: black;
+    transition: ease-in-out 0.2s;
+    top: 660px;
+    left:15.5vw;
+    position: absolute;
+    padding-left:40px;
+    padding-right:40px;
+    padding-top:15px;
+    font-size: 1vw;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    z-index: 1;
+}
+h2:hover{
+    background-color: transparent;
+    color: white;
+  }
+.dd+li{
+  margin-top:auto;
+}
+.dd{
+  display:block;
+  padding:2vh;
+  color:white;
+}
+.ddcontent{
+  display:none !important;
+  width: 100%;
+  height:0px;
+  transition: ease-in-out 0.2s;
+  position: absolute;
+  left:0px;
+  padding-left:0px;
+}
+
+.dd:hover .ddcontent{
+  background-color: #1c2230;
+  display:flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  transition:height ease-in-out 0.2s;
+  height:max-content;
+}
+
+@media only screen and (min-width: 769px) {
+  /* Header CSS */
+  .main-header nav, .main-header ul {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1em;
+
+  }
+  .main-header nav {
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .main-header ul {
+    margin-right: 10%;
+  }
+  .main-header h1 {
+    align-self: center;
+    margin: 0 auto 0 10%;
+  }
+  .main-header li {
+    margin-right: 30px;
+  }
+ }
+ 

@@ -1,0 +1,77 @@
+.section-2 {
+  padding: 130px 0 20px;
+}
+
+.section-2-title, .section-2-content {
+  margin-left: -50px;
+}
+
+.section-2-content {
+  margin-bottom: 20px;
+  text-align: center
+}
+
+.line-2 {
+  color: #c0c5ce;
+  border-bottom: 1px solid #fff;
+}
+
+.section-2 .item-1, .section-2 .item-2, .section-2 .item-3 {
+  margin-top: 10px;
+  transition: transform .3s;
+}
+
+.section-2 .item-1:hover, .section-2 .item-2:hover, .section-2 .item-3:hover {
+  transform: scale(1.05);
+  transition: transform .3s;
+}
+
+.pricing-title, .pricing-title-big {
+  color: #fff;
+  background-color: #343d46;
+  font-size: 1.2em;
+  padding: 10px;
+  transition: background-color .5s;
+}
+
+.pricing-title:hover {
+  background-color: #44C184;
+  transition: background-color .5s;
+}
+
+.pricing-title-big {
+  background-color: #44C184;
+  font-size: 1.4rem;
+}
+
+.pricing-content {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .3);
+  padding: 10px;
+}
+
+.sign-up-container {
+  color: #44C184;
+  padding: 20px;
+}
+
+.sign-up {
+  border: 1px solid #44C184;
+  border-radius: 5px;
+  padding: 10px 100px;
+  transition: background-color .5s, color .5s;
+}
+
+.sign-up:hover {
+  background-color: #44C184;
+  color: #fff;
+  transition: background-color .5s, color .5s;
+}
+@media only screen and (min-width: 769px) {
+  .section-2 .item-2 {
+    margin: 0 20px;
+  }
+  .sign-up {
+    padding: 10px 50px;
+  }
+  }

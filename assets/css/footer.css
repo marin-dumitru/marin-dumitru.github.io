@@ -1,0 +1,47 @@
+.main-footer {
+  background-color: #232A3B;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  margin-top: 4em;
+}
+
+.main-footer p {
+  margin-bottom: 10px;
+}
+
+.social-icon {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  transition: color .5s;
+}
+
+.social-icon:hover {
+  color: #44C184;
+  transition: color .5s;
+}
+
+.contact-icon {
+  margin-right: 10px;
+}
+
+.contact-info {
+  line-height: 0;
+}
+
+.hello {
+  color: #44C184;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.main-footer {
+    text-align: left;
+  }
+  .main-footer .item-1, .main-footer .item-2 {
+    flex: 1;
+  }
+  .main-footer .item-1 {
+    flex: 2 40%;
+  }
