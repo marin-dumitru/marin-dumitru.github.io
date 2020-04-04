@@ -43,8 +43,6 @@ body {
   background:url("../img/double-bubble-outline.png");
 }
 
-
-
 .dd+li{
   margin-top:auto;
 }
@@ -75,7 +73,6 @@ body {
 }
 
 @media only screen and (min-width: 769px) {
-  /* Header CSS */
   .main-header nav, .main-header ul {
     align-items: center;
     display: flex;

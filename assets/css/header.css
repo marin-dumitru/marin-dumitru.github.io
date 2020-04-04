@@ -12,7 +12,6 @@ nav {
   text-transform: uppercase;
   z-index: 99;
   position:fixed;
-
 }
 nav ul{
     text-transform: uppercase;
@@ -103,7 +102,6 @@ h2:hover{
 }
 
 @media only screen and (min-width: 769px) {
-  /* Header CSS */
   .main-header nav, .main-header ul {
     align-items: center;
     display: flex;
