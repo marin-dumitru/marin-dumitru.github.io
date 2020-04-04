@@ -7,7 +7,7 @@ document.write('\
       <ul>\
         <li class="fade-in wow" id="delay-1" data-wow-delay=".5s"><a href="index.html">Acasa</a></li>\
         <li class="fade-in wow" id="delay-2" data-wow-delay=".5s"><a href="Prezentare.html">Prezentare</a></li>\
-        <li class="nav-end fade-in wow" id="delay-3" data-wow-delay=".5s"><a href="servicii.html">Servicii</a></li>\
+        <li class="nav-end fade-in wow" id="delay-3" data-wow-delay=".5s"><a href="Servicii.html">Servicii</a></li>\
         <li class="nav-end fade-in wow dd" id="delay-3" data-wow-delay=".5s">\
           Produse\
         <ul class="ddcontent">\
