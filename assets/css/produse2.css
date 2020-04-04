@@ -60,7 +60,7 @@ button{
   text-align: left;
 }
 
-  button .s1{
+  button .b1{
   text-transform: uppercase;
   display:block;
   left:0px;
@@ -68,7 +68,7 @@ button{
 }
 
 
-  button .s2{
+  button .b2{
   text-transform: uppercase;
   letter-spacing: 0.2vw;
   color: var(--accent);
@@ -85,10 +85,10 @@ button{
     margin: 1.5vw;
   }
 
-  button .s1{
+  button .b1{
     font-size: 1.5vw;
   }
-  button .s2{
+  button .b2{
     font-size: 1vw;
     float:right;
   }
